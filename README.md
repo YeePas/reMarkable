@@ -19,9 +19,6 @@ outputs/
 
 ## PNG Templates
 
-Gebruik bij voorkeur:
-
-[outputs/remarkable_template_pngs_strak](outputs/remarkable_template_pngs_strak)
 
 Deze map bevat 21 templates:
 
