@@ -1,0 +1,198 @@
+[
+  {
+    "name": "1:1 Meeting",
+    "filename": "one_on_one_meeting_portrait",
+    "iconCode": "",
+    "categories": [
+      "Joep",
+      "Planners"
+    ]
+  },
+  {
+    "name": "Decision Log",
+    "filename": "decision_log_landscape",
+    "iconCode": "",
+    "categories": [
+      "Joep",
+      "Planners"
+    ],
+    "landscape": true
+  },
+  {
+    "name": "Project Dashboard",
+    "filename": "project_dashboard_portrait",
+    "iconCode": "",
+    "categories": [
+      "Joep",
+      "Planners"
+    ]
+  },
+  {
+    "name": "Weekly Leadership Review",
+    "filename": "weekly_leadership_review_portrait",
+    "iconCode": "",
+    "categories": [
+      "Joep",
+      "Planners"
+    ]
+  },
+  {
+    "name": "Workshop Canvas",
+    "filename": "workshop_canvas_landscape",
+    "iconCode": "",
+    "categories": [
+      "Joep",
+      "Planners"
+    ],
+    "landscape": true
+  },
+  {
+    "name": "Daily Planner",
+    "filename": "daily_planner_portrait",
+    "iconCode": "",
+    "categories": [
+      "Joep",
+      "Planners"
+    ]
+  },
+  {
+    "name": "Weekly Planner",
+    "filename": "weekly_planner_landscape",
+    "iconCode": "",
+    "categories": [
+      "Joep",
+      "Planners"
+    ],
+    "landscape": true
+  },
+  {
+    "name": "GTD Inbox",
+    "filename": "gtd_inbox_portrait",
+    "iconCode": "",
+    "categories": [
+      "Joep",
+      "Planners"
+    ]
+  },
+  {
+    "name": "Eisenhower Matrix",
+    "filename": "eisenhower_matrix_portrait",
+    "iconCode": "",
+    "categories": [
+      "Joep",
+      "Planners"
+    ]
+  },
+  {
+    "name": "Focus Sprint",
+    "filename": "focus_sprint_portrait",
+    "iconCode": "",
+    "categories": [
+      "Joep",
+      "Planners"
+    ]
+  },
+  {
+    "name": "OKR Template",
+    "filename": "okr_template_portrait",
+    "iconCode": "",
+    "categories": [
+      "Joep",
+      "Planners"
+    ]
+  },
+  {
+    "name": "One-page Strategy",
+    "filename": "one_page_strategy_portrait",
+    "iconCode": "",
+    "categories": [
+      "Joep",
+      "Planners"
+    ]
+  },
+  {
+    "name": "Problem Framing Canvas",
+    "filename": "problem_framing_canvas_portrait",
+    "iconCode": "",
+    "categories": [
+      "Joep",
+      "Planners"
+    ]
+  },
+  {
+    "name": "Pre-mortem",
+    "filename": "pre_mortem_portrait",
+    "iconCode": "",
+    "categories": [
+      "Joep",
+      "Planners"
+    ]
+  },
+  {
+    "name": "Hypothesis Tracker",
+    "filename": "hypothesis_tracker_landscape",
+    "iconCode": "",
+    "categories": [
+      "Joep",
+      "Planners"
+    ],
+    "landscape": true
+  },
+  {
+    "name": "Slide Storyboard",
+    "filename": "slide_storyboard_landscape",
+    "iconCode": "",
+    "categories": [
+      "Joep",
+      "Creative"
+    ],
+    "landscape": true
+  },
+  {
+    "name": "Executive Memo Outline",
+    "filename": "executive_memo_outline_portrait",
+    "iconCode": "",
+    "categories": [
+      "Joep",
+      "Planners"
+    ]
+  },
+  {
+    "name": "Before After Transformation Canvas",
+    "filename": "before_after_transformation_canvas_landscape",
+    "iconCode": "",
+    "categories": [
+      "Joep",
+      "Planners"
+    ],
+    "landscape": true
+  },
+  {
+    "name": "Cornell Notes",
+    "filename": "cornell_notes_portrait",
+    "iconCode": "",
+    "categories": [
+      "Joep",
+      "Lines"
+    ]
+  },
+  {
+    "name": "Sketchnote",
+    "filename": "sketchnote_portrait",
+    "iconCode": "",
+    "categories": [
+      "Joep",
+      "Creative"
+    ]
+  },
+  {
+    "name": "Moodboard Concept Board",
+    "filename": "moodboard_concept_board_landscape",
+    "iconCode": "",
+    "categories": [
+      "Joep",
+      "Creative"
+    ],
+    "landscape": true
+  }
+]

@@ -19,6 +19,9 @@ outputs/
 
 ## PNG Templates
 
+Gebruik bij voorkeur:
+
+[outputs/remarkable_template_pngs_strak](outputs/remarkable_template_pngs_strak)
 
 Deze map bevat 21 templates:
 
@@ -53,8 +56,10 @@ Resoluties:
 
 Bijbehorende metadata:
 
-- [manifest.json](outputs/remarkable_template_pngs_strak/manifest.json) beschrijft naam, bestand, orientatie en resolutie.
-- [remarkable_templates_entries.json](outputs/remarkable_template_pngs_strak/remarkable_templates_entries.json) bevat kant-en-klare entries voor `templates.json`.
+- [manifest.json](outputs/remarkable_template_pngs_strak/manifest.json) beschrijft naam, bestand, orientatie en resolutie. Dit bestand is alleen inventaris/controle en wordt niet door de reMarkable gebruikt.
+- [remarkable_templates_entries.json](outputs/remarkable_template_pngs_strak/remarkable_templates_entries.json) bevat kant-en-klare entries die je toevoegt aan je bestaande `templates.json`.
+
+Let op: `remarkable_templates_entries.json` is geen volledige `templates.json`. Vervang je bestaande reMarkable `templates.json` hier dus niet mee.
 
 ## templates.json
 
@@ -90,6 +95,28 @@ Belangrijk:
 - Gebruik `landscape: true` alleen voor liggende templates.
 - Velden zoals `orientation` en `size` horen niet in reMarkable's `templates.json`; die staan alleen in het manifest voor onszelf.
 - De categorie `Joep` werkt als eigen categorie. De tweede categorie, zoals `Planners`, `Creative` of `Lines`, zorgt dat de template ook in een standaardgroep vindbaar blijft.
+- Voeg custom entries toe aan de bestaande `"templates": [...]` array. Vervang de standaardtemplates niet.
+
+Voorbeeld van het principe:
+
+```json
+{
+  "templates": [
+    {
+      "name": "Blank",
+      "filename": "Blank",
+      "iconCode": "\ue9fe",
+      "categories": ["Creative", "Lines", "Grids", "Planners"]
+    },
+    {
+      "name": "Daily Planner",
+      "filename": "daily_planner_portrait",
+      "iconCode": "\ue991",
+      "categories": ["Joep", "Planners"]
+    }
+  ]
+}
+```
 
 ## Installatie Op reMarkable
 
@@ -110,7 +137,8 @@ Handmatig concept:
 /usr/share/remarkable/templates/templates.json
 ```
 
-4. Herstart de reMarkable UI of reboot de tablet.
+4. Vervang dus niet het hele bestand; plak alleen de objecten uit `remarkable_templates_entries.json` als extra items in de array.
+5. Herstart de reMarkable UI of reboot de tablet.
 
 Voor USB/SSH is het device meestal bereikbaar via:
 
